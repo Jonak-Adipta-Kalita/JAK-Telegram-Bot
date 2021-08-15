@@ -1,7 +1,6 @@
 import telegram.ext as telegram_bot
 import credentials
 
-
 def start(update, context):
     update.message.reply_text(
         r"""
@@ -15,7 +14,10 @@ def start(update, context):
 def help_me(update, context):
     update.message.reply_text(
         r"""
-    
+    Full Commands List:
+
+    /start -> Start the Bot
+    /help  -> See full List of Cammands
 """
     )
 
