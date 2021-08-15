@@ -18,28 +18,8 @@ def help_me(update, context):
 
     /start -> Start the Bot
     /help -> See full List of Cammands
-    /website -> Open JAK's Website
-    /api -> Open JAK's API's Website
-    /discord_bot -> Open JAK's Discord Bot Invite Link
     /time -> See the Current Time
 """
-    )
-
-
-def website(update, context):
-    update.message.reply_text("Opening JAK's Website!!")
-    webbrowser.open("https://jonakadiptakalita.herokuapp.com/")
-
-
-def api(update, context):
-    update.message.reply_text("Opening JAK's API's Website!!")
-    webbrowser.open("https://jak-api-dot-com.herokuapp.com/")
-
-
-def discord_bot(update, context):
-    update.message.reply_text("Opening JAK's Discord Bot Invite Link!!")
-    webbrowser.open(
-        "https://discord.com/oauth2/authorize?client_id=756402881913028689&scope=bot"
     )
 
 
