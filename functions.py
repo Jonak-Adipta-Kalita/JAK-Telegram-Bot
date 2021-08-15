@@ -1,4 +1,4 @@
-import webbrowser, datetime
+import datetime
 
 
 def start(update, context):
