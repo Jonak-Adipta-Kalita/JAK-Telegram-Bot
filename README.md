@@ -19,6 +19,11 @@ To Clone this Repository, open a terminal in a empty folder and type
 git clone https://github.com/Jonak-Adipta-Kalita/JAK-Telegram-Bot.git
 ```
 
+## Technology(s) Used
+
+-   Language: [Python](https://python.org/)
+-   Hosted: [Heroku](https://heroku.com/)
+
 ### Installing The Required Modules
 To install the required modules, just open a terminal in the directory where this project is cloned. Now type: 
 ```bash
@@ -50,6 +55,11 @@ black .
 deactivate
 ```
 and press Enter.
+
+## Technology(s) Used
+
+-   Language: [Python](https://python.org/)
+-   Hosted: [Heroku](https://heroku.com/)
 
 ## Contributors
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Telegram-Bot/graphs/contributors">
