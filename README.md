@@ -2,6 +2,7 @@
 
 # JAK-Telegram-Bot
 [![Code Style: Black](https://img.shields.io/badge/Code%20Style-Black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
+![License](https://img.shields.io/github/license/Jonak-Adipta-Kalita/JAK-Telegram-Bot?style=for-the-badge)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Jonak-Adipta-Kalita/JAK-Telegram-Bot?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Jonak-Adipta-Kalita/JAK-Telegram-Bot?style=for-the-badge)
 ![GitHub Watchers](https://img.shields.io/github/watchers/Jonak-Adipta-Kalita/JAK-Telegram-Bot?style=for-the-badge)
