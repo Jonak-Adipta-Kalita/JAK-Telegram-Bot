@@ -18,7 +18,7 @@ six==1.16.0
 tomli==1.2.1
 tornado==6.1
 typed-ast==1.4.3
-typing-extensions==3.10.0.0
+typing-extensions==3.10.0.2
 tzdata==2021.1
 tzlocal==3.0
 zipp==3.5.0
