@@ -21,4 +21,4 @@ typed-ast==1.4.3
 typing-extensions==3.10.0.2
 tzdata==2021.1
 tzlocal
-zipp==3.5.1
+zipp==3.6.0
