@@ -1,4 +1,5 @@
 import datetime
+import webbrowser
 
 
 def start(update, context):
@@ -17,8 +18,9 @@ def help_me(update, context):
     Full Commands List:
 
     /start -> Start the Bot
-    /help -> See full List of Cammands
+    /help -> See full List of Commands
     /time -> See the Current Time
+    /abouthacktoberfest -> See information about Hacktoberfest
 """
     )
 
@@ -27,3 +29,26 @@ def time(update, context):
     now = datetime.datetime.now()
     current_time = now.strftime("%H:%M:%S")
     update.message.reply_text(f"The Current Time is: {current_time}")
+
+
+def abouthacktoberfest(update, context):
+    update.message.reply_text(
+        r"""
+        Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
+
+And also this bot is included in Hacktoberfest repo. For more information check
+
+        /hacktoberfest -> Go to Hacktoberfest website
+        /repo -> Go to this Bot repository
+        """
+    )
+
+
+def hacktoberfest(update, context):
+    webbrowser.open("https://hacktoberfest.digitalocean.com/")
+    update.message.reply_text("Open Hacktoberfest on web browser.")
+
+
+def repo(update, context):
+    webbrowser.open("https://github.com/Jonak-Adipta-Kalita/JAK-Telegram-Bot")
+    update.message.reply_text("Open bot repository.")
