@@ -46,4 +46,4 @@ And also this bot is included in Hacktoberfest Repositories!!
 
 def repo(update, context):
     webbrowser.open("https://github.com/Jonak-Adipta-Kalita/JAK-Telegram-Bot")
-    update.message.reply_text("Open bot repository.")
+    update.message.reply_text("Opening Bot's repository.")
