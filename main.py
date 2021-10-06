@@ -1,3 +1,4 @@
+from logging import error
 import telegram.ext as telegram_bot
 import src.functions as funcs
 import credentials
@@ -11,9 +12,7 @@ disp.add_handler(telegram_bot.CommandHandler("time", funcs.time))
 disp.add_handler(
     telegram_bot.CommandHandler("abouthacktoberfest", funcs.abouthacktoberfest)
 )
-disp.add_handler(telegram_bot.CommandHandler("hacktoberfest", funcs.hacktoberfest))
-disp.add_handler(telegram_bot.CommandHandler("repo", funcs.repo))
-
+updater.dispatcher.add_error_handler(error)
 updater.start_polling()
 updater.idle()
 
