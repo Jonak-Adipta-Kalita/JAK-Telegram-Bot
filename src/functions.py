@@ -21,7 +21,7 @@ def help_me(update, context):
     /help -> See full List of Commands
     /time -> See the Current Time
     /repo -> Go to this Bot repository
-    /about_hacktoberfest -> See information about Hacktoberfest
+    /hacktoberfest -> See information about Hacktoberfest
 """
     )
 
