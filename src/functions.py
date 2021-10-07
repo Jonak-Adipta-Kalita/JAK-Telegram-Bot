@@ -34,9 +34,9 @@ def time(update, context):
 
 def hacktoberfest(update, context):
     update.message.reply_text(
-        """
-        Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition
-        T-shirt. And also this bot is included in Hacktoberfest repo. For more information check the url below.
+        r"""
+Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
+And also this bot is included in Hacktoberfest repo. For more information check the url below.
         """,
         reply_markup=urlKeyboard(),
     )
