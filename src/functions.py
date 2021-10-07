@@ -21,7 +21,7 @@ def help_me(update, context):
     /start -> Start the Bot
     /help -> See full List of Commands
     /time -> See the Current Time
-
+    /hacktoberfest -> Check out about Hacktoberfest
 """
     )
 
@@ -31,12 +31,12 @@ def time(update, context):
     current_time = now.strftime("%H:%M:%S")
     update.message.reply_text(f"The Current Time is: {current_time}")
 
-def abouthacktoberfest(update, context):
-    update.message.reply_text(
-        r"""
-        Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
 
-And also this bot is included in Hacktoberfest repo. For more information check the url below.
+def hacktoberfest(update, context):
+    update.message.reply_text(
+        """
+        Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition
+        T-shirt. And also this bot is included in Hacktoberfest repo. For more information check the url below.
         """,
         reply_markup=urlKeyboard(),
     )
@@ -56,4 +56,5 @@ def urlKeyboard():
             )
         ],
     ]
+
     return InlineKeyboardMarkup(keyboard)
