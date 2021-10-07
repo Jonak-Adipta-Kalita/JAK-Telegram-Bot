@@ -12,6 +12,7 @@ disp.add_handler(telegram_bot.CommandHandler("time", funcs.time))
 disp.add_handler(
     telegram_bot.CommandHandler("abouthacktoberfest", funcs.abouthacktoberfest)
 )
+
 updater.dispatcher.add_error_handler(error)
 updater.start_polling()
 updater.idle()

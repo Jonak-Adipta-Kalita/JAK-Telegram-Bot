@@ -21,7 +21,7 @@ def help_me(update, context):
     /start -> Start the Bot
     /help -> See full List of Commands
     /time -> See the Current Time
-    /abouthacktoberfest -> See information about Hacktoberfest
+
 """
     )
 
@@ -30,7 +30,6 @@ def time(update, context):
     now = datetime.datetime.now()
     current_time = now.strftime("%H:%M:%S")
     update.message.reply_text(f"The Current Time is: {current_time}")
-
 
 def abouthacktoberfest(update, context):
     update.message.reply_text(
