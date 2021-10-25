@@ -16,7 +16,7 @@ python-telegram-bot==13.7
 pytz==2021.3
 regex==2021.10.8
 six==1.16.0
-tomli==1.2.1
+tomli==1.2.2
 tornado==6.1
 typed-ast==1.4.3
 typing-extensions==3.10.0.2
