@@ -3,6 +3,8 @@ import telegram.ext as telegram_bot
 import src.functions as funcs
 import credentials
 
+print("Starting...")
+
 updater = telegram_bot.Updater(credentials.TOKEN, use_context=True)
 disp = updater.dispatcher
 
@@ -15,4 +17,4 @@ updater.dispatcher.add_error_handler(error)
 updater.start_polling()
 updater.idle()
 
-print("Exiting...\n")
+print("Exiting...")

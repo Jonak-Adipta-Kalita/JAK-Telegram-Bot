@@ -1,5 +1,6 @@
 from telegram import bot
-import datetime, keyboard_buttons
+import src.keyboard_buttons as keyboard_buttons
+import datetime
 
 
 def start(update, context):
@@ -35,7 +36,7 @@ def hacktoberfest(update, context):
     update.message.reply_text(
         r"""
 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
-And also this bot is included in Hacktoberfest repo. For more information check the url below.
+And also this bot is included in Hacktoberfest eligibal Repositories. For more information check the urls below.
         """,
         reply_markup=keyboard_buttons.hacktoberfest(),
     )
