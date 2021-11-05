@@ -1,6 +1,5 @@
-import datetime
-from telegram import InlineKeyboardMarkup, bot
-from telegram.inline.inlinekeyboardbutton import InlineKeyboardButton
+from telegram import bot
+import datetime, keyboard_buttons
 
 
 def start(update, context):
@@ -38,23 +37,5 @@ def hacktoberfest(update, context):
 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
 And also this bot is included in Hacktoberfest repo. For more information check the url below.
         """,
-        reply_markup=urlKeyboard(),
+        reply_markup=keyboard_buttons.hacktoberfest(),
     )
-
-
-def urlKeyboard():
-    keyboard = [
-        [
-            InlineKeyboardButton(
-                "Hacktoberfest", url="https://hacktoberfest.digitalocean.com/"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                "Bot Repository",
-                url="https://github.com/Jonak-Adipta-Kalita/JAK-Telegram-Bot",
-            )
-        ],
-    ]
-
-    return InlineKeyboardMarkup(keyboard)
