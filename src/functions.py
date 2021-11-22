@@ -1,4 +1,3 @@
-from telegram import bot
 import src.keyboard_buttons as keyboard_buttons
 import datetime
 
