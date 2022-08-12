@@ -13,7 +13,7 @@ pathspec==0.9.0
 platformdirs==2.4.0
 python-decouple==3.5
 python-telegram-bot==13.7
-pytz==2021.3
+pytz==2022.2
 regex==2021.10.23
 six==1.16.0
 tomli==1.2.2
