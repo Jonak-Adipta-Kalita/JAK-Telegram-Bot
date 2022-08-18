@@ -14,7 +14,7 @@ platformdirs==2.4.0
 python-decouple==3.5
 python-telegram-bot==13.7
 pytz==2021.3
-regex==2021.10.23
+regex==2022.8.17
 six==1.16.0
 tomli==1.2.2
 tornado==6.1
